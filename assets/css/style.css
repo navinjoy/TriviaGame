@@ -1,0 +1,66 @@
+body {
+    background-image: url("../images/quiz.jpg");
+    background-size: 100%;
+}
+
+
+header h1 {
+	background: #eee03f;
+	font-size: 300%;
+	text-align: center;
+	height: 100%;
+
+}
+
+h2 {
+	color: lightgrey;
+	font-size: 200%;
+}
+
+.timerdisplay h1 {
+	background: lightblue;
+	font-size: 200%;
+	color: grey;
+}
+
+input {
+	margin-left: 10px;
+}
+
+#btnholder {
+	text-align: center;
+}
+
+#start {
+	width: 200px;
+	height: 100px;
+}
+
+#submitbtnholder, #restartbtnholder {
+	text-align: center;
+}
+
+#submit, #restart {
+	width: 100px;
+	height: 50px;
+}
+
+#scorecard {
+		text-align: center;
+	background: lightgrey;
+}
+
+#scorecard h1 {
+	background: none;
+	font-size: 200%;
+}
+
+.timerdisplay {
+	background: lightblue;
+}
+
+label {
+	font-size: 80%;
+	color: orange;
+	padding-left: 3px;
+}
