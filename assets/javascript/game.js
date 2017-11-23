@@ -38,12 +38,12 @@ var correctAnswers = 0;
 
 var game = {
     counter: 0,
-    maxtimeforQ: 10,
+    maxtimeforQ: 30,
 
     reset: function() {
     	correctAnswers = 0;
     	isGameOver = false;
-        game.maxtimeforQ = 10;
+        game.maxtimeforQ = 30;
         $('#start').show();
         game.start();
     },
