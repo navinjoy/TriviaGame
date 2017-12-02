@@ -49,6 +49,7 @@ var game = {
     },
 
     start: function() {
+        clearInterval(intervalId);
     	$('.container').append($('<hr>'));
         $('.container').append($('<div>').attr('class','timerdisplay').append($('<h1>')));
         intervalId = setInterval(game.timer, 1000);
